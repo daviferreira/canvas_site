@@ -132,7 +132,7 @@ div#main ul, div#main ol{margin:24px 0; list-style:inside square; }
 div#main ol li{list-style:inside decimal;}
 div#main ul li, div#main ol li{ padding:0 0 12px 0; margin: 0 0 12px 0; border-bottom:1px dashed #999; }
 
-div#main ul#examples {margin:48px 0;}
+div#main ul#examples {margin:24px 0;}
 div#main ul#examples li{ width:313.3px; float:left; border:none; padding:0 0; list-style:none; margin: 0 0; }
 div#main ul#examples li span{ font-size:18px; }
 div#main ul#examples li.end{ margin: 0 0 24px; }

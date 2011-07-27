@@ -20,12 +20,12 @@ $(function(){
     e.preventDefault();
   });
   
-  $('pre').each(function(){
-    $(this).snippet("php",{
-              style:"vim",
-              clipboard:"js/libs/ZeroClipboard.swf"
-    });
+  $('pre').snippet("php",{
+    style:"vim",
+    clipboard:"js/libs/ZeroClipboard.swf"
   });
+  
+  $("#faq").wijaccordion();
 });
 
 
