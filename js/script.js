@@ -14,11 +14,19 @@ $(function(){
     autoOpen: false,
     width:960,
     height:500,
-    title:"Canvas API Documentation"
+    title:"Canvas API Documentation",
+    closeOnEscape:true,
+    modal:true,
+    captionButtons: {
+                    pin: { visible: false },
+                    refresh: { visible: false },
+                    toggle: { visible: false },
+                    minimize: { visible: false }
+    }
   });
 
   $('#api').click(function(e){
-    $('#api-dialog').wijdialog('open');
+    $('#api-dialog').wijdialog('open').wijdialog('maximize');
     e.preventDefault();
   });
   

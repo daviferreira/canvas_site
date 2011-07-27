@@ -16,7 +16,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="css/style.css?v=2">
-  <link href="http://cdn.wijmo.com/themes/aristo/jquery-wijmo.css" rel="stylesheet" type="text/css" />
+  <link href="http://cdn.wijmo.com/themes/rocket/jquery-wijmo.css" rel="stylesheet" type="text/css" />
   <link href="http://cdn.wijmo.com/jquery.wijmo-open.1.1.6.css" rel="stylesheet" type="text/css" />
   <link href="http://cdn.wijmo.com/jquery.wijmo-complete.1.1.6.css" rel="stylesheet" type="text/css" />
   <script src="js/libs/modernizr-1.7.min.js"></script>
@@ -27,7 +27,7 @@
   <div id="container">
     <header>
       <a href="http://github.com/daviferreira/canvas2"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/7afbc8b248c68eb468279e8c17986ad46549fb71/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub"></a>
-      <h1>Canvas</h1>
+      <h1>canvas</h1>
       <h2>&lt;?php image manipulation made easier</h2>
     </header>
     <div id="main" role="main">
@@ -68,7 +68,12 @@ $img->set_crop_coordinates(-400, -410)
       <div id="api-dialog" style="display:none;">
         <div id="api-content">
           <h2>__construct([$file])</h2>
-          <div>Panel 1</div>
+          <div>
+<pre>
+&lt;?php
+$img = new canvas("image.jpg");
+</pre>              
+          </div>
           <h2>load($file)</h2>
           <div>Panel 2</div>
           <h2>load_url($url)</h2>

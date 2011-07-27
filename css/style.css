@@ -115,7 +115,10 @@ div#main span.download{ display:block; position:absolute; text-align:center; mar
 
 div#main p#intro{margin:24px 0 48px;}
 
-div#api-content h2 a{color: #607890!important;}
+div#api-content h2 a{color: #f2f2f2!important;}
+
+button span{font-family: "Georgia", serif;}
+
 /*
 div#main ul#examples li a, 
 div#main ul#examples li a{
