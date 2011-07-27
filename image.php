@@ -2,9 +2,8 @@
 require 'canvas.php';
 
 $options = array(
-  "color" => "#000",
-  "background_color" => "#ffff00", 
-  "size" => 4, 
+  "color" => "#333",
+  "size" => 2, 
   "x" => "right", 
   "y" => "top");
 $img = new canvas("img/banksky3.jpg");
