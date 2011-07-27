@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title></title>
+  <title>Canvas: php image manipulation, resize and conversion</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -43,7 +43,7 @@ $img = new canvas;
 $img->load("image.jpg")->resize("30%")->filter("grayscale")->show();
 </pre>
 
-      <p>The next one will load the file called "banksky3.jpg" located at the "img" directory  (this time using the class constructor), resize with crop (setting manually the crop coordinates), add some credits text to the image and finally save it as a new image, with a different format ("new_image.png" at "/tmp" dir).</p>
+      <p>Next one will load the file called "banksky3.jpg" located at the "img" directory  (this time using the class constructor), resize with crop (setting manually the crop coordinates), add some credits text to the image and finally save it as a new image, with a different format ("new_image.png" at "/tmp" dir).</p>
 
 <pre>
 require_once "canvas.php";
@@ -101,8 +101,8 @@ ini_set( 'display_errors',1 );
 ini_set( 'display_startup_errors', true );
 </pre>      
 
+      <p>If you are still experiencing trouble, please drop a new issue at <a href="https://github.com/daviferreira/canvas2/issues">GitHub</a> and I'll take a look at it! You can also <a href="http://www.twitter.com/davitferreira">follow me on twitter</a> for updates and help.</p>
       
-      <h3>Support</h3>
       <h3>Credits</h3>
       
       <p>Canvas PHP image manipulation class written by <a href="http://www.daviferreira.com" target="_blank">Davi Ferreira</a>.</p>
@@ -123,7 +123,7 @@ ini_set( 'display_startup_errors', true );
       <p>Aller font by <a href="http://www.daltonmaag.com/" target="_blank">Dalton Maag</a>.</p>
     </div>
     <footer>
-      !&copy;
+      <a href="http://twitter.com/share" class="twitter-share-button" data-text="Canvas: php image manipulation made easier" data-count="horizontal" data-via="davitferreira">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     </footer>
   </div> <!-- eo #container -->
 
