@@ -9,12 +9,16 @@ $(function(){
     height:500
   });
 
-  $('#api').button().click(function(e){
-    $('#api-dialog').wijdialog('open')
+  $('#api').click(function(e){
+    $('#api-dialog').wijdialog('open');
     e.preventDefault();
   });
   
-  $('#examples button').button();
+  $('button').button();
+  
+  $('#examples button').click(function(e){
+    e.preventDefault();
+  });
   
   $('pre').each(function(){
     $(this).snippet("php",{

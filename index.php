@@ -16,7 +16,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="css/style.css?v=2">
-  <link href="http://cdn.wijmo.com/themes/rocket/jquery-wijmo.css" rel="stylesheet" type="text/css" />
+  <link href="http://cdn.wijmo.com/themes/aristo/jquery-wijmo.css" rel="stylesheet" type="text/css" />
   <link href="http://cdn.wijmo.com/jquery.wijmo-open.1.1.6.css" rel="stylesheet" type="text/css" />
   <link href="http://cdn.wijmo.com/jquery.wijmo-complete.1.1.6.css" rel="stylesheet" type="text/css" />
   <script src="js/libs/modernizr-1.7.min.js"></script>
@@ -32,9 +32,9 @@
     </header>
     <div id="main" role="main">
       
-      <p id="intro"><img src="image.php?<?=date("U")?>" width="938" height="240" alt="Banksky!" /></p>
-      
+      <p id="intro"><span class="download"><button href="https://github.com/daviferreira/canvas2/archives/master">&raquo; Download now</button></span><img src="image.php?<?=date("U")?>" width="938" height="240" alt="Banksky!" /></p>
       <p>Canvas is a PHP class to manipulate images, including <strong>resize functions</strong>, <strong>filters</strong>, <strong>crop</strong>, <strong>conversion</strong> and <strong>method chaining</strong>.</p>
+      
       
       <h3>How to use</h3>
       

@@ -8,4 +8,4 @@ $options = array(
   "x" => "right", 
   "y" => "top");
 $img = new canvas("img/banksky3.jpg");
-$img->set_crop_coordinates(-400, -410)->resize("938", "240", "crop")->filter("grayscale")->text("banksky.co.uk", $options)->show();
+$img->set_crop_coordinates(-580, -410)->resize("938", "240", "crop")->filter("grayscale")->text("banksky.co.uk", $options)->show();

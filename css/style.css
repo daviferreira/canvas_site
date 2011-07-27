@@ -111,6 +111,10 @@ div#main p, div#main ul li{ line-height:23px; font-family: "Georgia", serif; lin
 
 div#main p strong{ background-color:#ffff00; color:#000!important; display:inline-block; padding:4px; border:none!important; font-size:300!important; }
 
+div#main span.download{ display:block; position:absolute; text-align:center; margin-top:100px; margin-left:620px; }
+
+div#main p#intro{margin:24px 0 48px;}
+
 /*
 div#main ul#examples li a, 
 div#main ul#examples li a{
@@ -128,6 +132,7 @@ div#main ul, div#main ol{margin:24px 0; list-style:inside square; }
 div#main ol li{list-style:inside decimal;}
 div#main ul li, div#main ol li{ padding:0 0 12px 0; margin: 0 0 12px 0; border-bottom:1px dashed #999; }
 
+div#main ul#examples {margin:48px 0;}
 div#main ul#examples li{ width:313.3px; float:left; border:none; padding:0 0; list-style:none; margin: 0 0; }
 div#main ul#examples li span{ font-size:18px; }
 div#main ul#examples li.end{ margin: 0 0 24px; }
