@@ -15,6 +15,13 @@ $(function(){
   });
   
   $('#examples button').button();
+  
+  $('pre').each(function(){
+    $(this).snippet("php",{
+              style:"vim",
+              clipboard:"js/libs/ZeroClipboard.swf"
+    });
+  });
 });
 
 

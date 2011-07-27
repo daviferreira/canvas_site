@@ -94,7 +94,7 @@ a { color:#c1ee38!important; text-decoration:none; border-bottom:1px dotted #c1e
 header{ margin: 58px 0; }
 
 div#container{ margin:0 auto; width: 940px; }
-div#container h1{ color: #c1ee38; font-size:100px; font-weight:900; line-height:80px; margin: 24px 0 0; text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px; text-align:center; }
+div#container h1{ color: #c1ee38; font-size:100px; font-weight:900; line-height:80px; margin: 24px 0 0; text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px; text-align:center; letter-spacing:-4px; }
 div#container h2{ color: #ffff00; font-size:36px; text-align:center; }
 div#container h3{ color: #ffff00; font-size:26px; margin:24px 0; }
 
@@ -109,7 +109,7 @@ border:1px solid #000;}
 
 div#main p, div#main ul li{ line-height:23px; font-family: "Georgia", serif; line-height:32px;  }
 
-div#main p strong{ background-color:#ffff00; color:#000!important; display:inline-block; padding:4px; border:none!important; }
+div#main p strong{ background-color:#ffff00; color:#000!important; display:inline-block; padding:4px; border:none!important; font-size:300!important; }
 
 /*
 div#main ul#examples li a, 

@@ -129,7 +129,7 @@ ini_set( 'display_startup_errors', true );
         <li>... and everybody else that mailed me suggestions and commented on both posts about Canvas! :)</li>
       </ul>
          
-      <p>Aller font by <a href="http://www.daltonmaag.com/" target="_blank">Dalton Maag</a>.</p>
+      <p>Aller font by <a href="http://www.daltonmaag.com/" target="_blank">Dalton Maag</a>, interface elements by <a href="http://wijmo.com/">Wijmo</a>.</p>
     </div>
     <footer>
       <a href="http://twitter.com/share" class="twitter-share-button" data-text="Canvas: php image manipulation made easier" data-count="horizontal" data-via="davitferreira">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
@@ -149,14 +149,6 @@ ini_set( 'display_startup_errors', true );
   
   <script src="js/libs/jquery.snippet.min.js"></script>
 
-  <script>
-  $('pre').each(function(){
-    $(this).snippet("php",{
-              style:"vim",
-              clipboard:"js/libs/ZeroClipboard.swf"
-    });
-  });
-  </script>
   <!-- scripts concatenated and minified via ant build script-->
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
