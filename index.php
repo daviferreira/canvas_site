@@ -110,6 +110,9 @@ ini_set( 'display_startup_errors', true );
 
       <p>If you are still experiencing trouble, please drop a new issue at <a href="https://github.com/daviferreira/canvas2/issues">GitHub</a> and I'll take a look at it! You can also <a href="http://www.twitter.com/davitferreira">follow me on twitter</a> for updates and help.</p>
       
+
+      <h3>Who is using it</h3>
+
       <h3>Credits</h3>
       
       <p>Canvas PHP image manipulation class written by <a href="http://www.daviferreira.com" target="_blank">Davi Ferreira</a>.</p>
