@@ -13,13 +13,16 @@ $(function(){
   $('#api-dialog').wijdialog({
     autoOpen: false,
     width:960,
-    height:500
+    height:500,
+    title:"Canvas API Documentation"
   });
 
   $('#api').click(function(e){
     $('#api-dialog').wijdialog('open');
     e.preventDefault();
   });
+  
+  $("#api-content").wijaccordion();
   
   $('#examples button').click(function(e){
     e.preventDefault();

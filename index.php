@@ -66,7 +66,14 @@ $img->set_crop_coordinates(-400, -410)
       <p>For a full list of features, check the <button id="api">api documentation</button></p>
       
       <div id="api-dialog" style="display:none;">
-        <h2>API</h2>
+        <div id="api-content">
+          <h2>__construct([$file])</h2>
+          <div>Panel 1</div>
+          <h2>load($file)</h2>
+          <div>Panel 2</div>
+          <h2>load_url($url)</h2>
+          <div>Panel 2</div>
+        </div>
       </div>
 
       <h3>Requirements</h3>
