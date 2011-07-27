@@ -63,23 +63,9 @@ $img->set_crop_coordinates(-400, -410)
     ->save("/tmp/new_image.png");
 </pre>
 
-      <p>For a full list of features, check the <button id="api">api documentation</button></p>
-      
-      <div id="api-dialog" style="display:none;">
-        <div id="api-content">
-          <h2>__construct([$file])</h2>
-          <div>
-<pre>
-&lt;?php
-$img = new canvas("image.jpg");
-</pre>              
-          </div>
-          <h2>load($file)</h2>
-          <div>Panel 2</div>
-          <h2>load_url($url)</h2>
-          <div>Panel 2</div>
-        </div>
-      </div>
+      <p>For a full list of features, check the <button id="api" value="api/">api documentation</button></p>
+
+      <?php include 'api.php'; ?>      
 
       <h3>Requirements</h3>
       

@@ -9,11 +9,11 @@ $(function(){
   $('span.download button').click(function(){
     window.location.href = $(this).val();
   });
-  
+
   $('#api-dialog').wijdialog({
     autoOpen: false,
-    width:960,
-    height:500,
+    width:1040,
+    height:700,
     title:"Canvas API Documentation",
     closeOnEscape:true,
     modal:true,
@@ -26,19 +26,25 @@ $(function(){
   });
 
   $('#api').click(function(e){
-    $('#api-dialog').wijdialog('open').wijdialog('maximize');
+    $('#api-dialog').wijdialog('open');
     e.preventDefault();
   });
   
   $("#api-content").wijaccordion();
-  
+
   $('#examples button').click(function(e){
     e.preventDefault();
   });
   
-  $('pre').snippet("php",{
+  $('div#main > pre').snippet("php",{
     style:"vim",
     clipboard:"js/libs/ZeroClipboard.swf"
+  });
+
+  $('#api-content pre').snippet("php",{
+    style:"print",
+    clipboard:"js/libs/ZeroClipboard.swf",
+    showNum:false
   });
   
   $("#faq").wijaccordion();
