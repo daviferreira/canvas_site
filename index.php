@@ -32,7 +32,7 @@
     </header>
     <div id="main" role="main">
       
-      <p id="intro"><span class="download"><button value="https://github.com/daviferreira/canvas2/zipball/master">&raquo; Download now <span class="info">(.zip, ~635kb)</span></button></span><img src="image.php?<?=date("U")?>" width="938" height="240" alt="Banksky!" /></p>
+      <p id="intro"><span class="download"><button value="https://github.com/daviferreira/canvas2/zipball/master">&raquo; Download now <span class="info">.zip</span></button></span><img src="image.php?<?=date("U")?>" width="938" height="240" alt="Banksky!" /></p>
       <p>Canvas is a PHP class to manipulate images, including <strong>resize functions</strong>, <strong>filters</strong>, <strong>crop</strong>, <strong>conversion</strong> and <strong>method chaining</strong>.</p>
       
       
