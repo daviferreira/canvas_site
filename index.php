@@ -32,7 +32,7 @@
     </header>
     <div id="main" role="main">
       
-      <p id="intro"><span class="download"><button href="https://github.com/daviferreira/canvas2/archives/master">&raquo; Download now</button></span><img src="image.php?<?=date("U")?>" width="938" height="240" alt="Banksky!" /></p>
+      <p id="intro"><span class="download"><button value="https://github.com/daviferreira/canvas2/zipball/master">&raquo; Download now <span class="info">(.zip, ~635kb)</span></button></span><img src="image.php?<?=date("U")?>" width="938" height="240" alt="Banksky!" /></p>
       <p>Canvas is a PHP class to manipulate images, including <strong>resize functions</strong>, <strong>filters</strong>, <strong>crop</strong>, <strong>conversion</strong> and <strong>method chaining</strong>.</p>
       
       
@@ -81,14 +81,14 @@ $img->set_crop_coordinates(-400, -410)
       <h3>Examples</h3>
       
       <ul id="examples" class="clearfix">
-        <li><button href="">Simple resizes</button></li>
-        <li><button href="">Dynamic placeholder image</button></li>
-        <li class="end"><button href="">Truetype text</button></li>
-        <li><button href="">Dynamic thumbnails</button></li>
-        <li><button href="">Canvas and jCrop</button></li>
+        <li><button value="">Simple resizes</button></li>
+        <li><button value="">Dynamic placeholder image</button></li>
+        <li class="end"><button value="">Truetype text</button></li>
+        <li><button value="">Dynamic thumbnails</button></li>
+        <li><button value="">Canvas and jCrop</button></li>
         <li class="end"><button href="">Canvas and .htaccess</button></li>
-        <li><button href="">Canvas image editor</button></li>
-        <li><button href="">Dynamic image gallery</button></li>
+        <li><button value="">Canvas image editor</button></li>
+        <li><button value="">Dynamic image gallery</button></li>
       </ul>
       
       <h3>Troubleshooting</h3>

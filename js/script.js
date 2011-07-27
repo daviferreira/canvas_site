@@ -3,6 +3,13 @@
 */
 
 $(function(){  
+  
+  $('button').button();
+  
+  $('span.download button').click(function(){
+    window.location.href = $(this).val();
+  });
+  
   $('#api-dialog').wijdialog({
     autoOpen: false,
     width:960,
@@ -13,8 +20,6 @@ $(function(){
     $('#api-dialog').wijdialog('open');
     e.preventDefault();
   });
-  
-  $('button').button();
   
   $('#examples button').click(function(e){
     e.preventDefault();
@@ -27,26 +32,3 @@ $(function(){
   
   $("#faq").wijaccordion();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
