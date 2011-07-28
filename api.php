@@ -3,6 +3,7 @@
 
     <h2>__construct( [ string <em>$file</em> ] )</h2>
     <div>
+      <p>This is the class constructor. It accepts, as an optional parameter, the name (including full path) of the image file you want to load.</p>
 <pre>
 $img = new canvas("image.jpg");
 </pre>              
@@ -10,6 +11,7 @@ $img = new canvas("image.jpg");
 
     <h2>load( string <em>$file</em> )</h2>
     <div>
+      <p>Load an image file taking the $file parameter with the name and full path of the local file.</p>
 <pre>
 $img = new canvas();
 $img->load("image.jpg");
