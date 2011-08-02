@@ -48,7 +48,7 @@ $img->load("image.jpg")->resize("30%")->filter("grayscale")->show();
 
       <p>Next one will load the file called "banksky3.jpg" located at the "img" directory  (this time using the class constructor), resize with crop (setting manually the crop coordinates), add some credits text to the image and finally save it as a new image, with a different format ("new_image.png" at "/tmp" dir).</p>
 
-<pre>
+<pre>&lt;?php 
 require_once "canvas.php";
 $img = new canvas("img/banksky3.jpg");
 $img->set_crop_coordinates(-400, -410)
