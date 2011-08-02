@@ -8,8 +8,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title>Canvas: php image manipulation, resize and conversion</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Canvas is a PHP class to manipulate, resize, crop and apply filter to images and photos. Canvas can also generate, using PHP, dynamic thubmnails for your photo galleries.">
+  <meta name="author" content="Davi Ferreira">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/favicon.ico">
@@ -112,6 +112,10 @@ ini_set( 'display_startup_errors', true );
       
 
       <h3>Who is using it</h3>
+
+      <ul class="clearfix" id="using-it">
+        <li><a href="http://www.oraculumframework.org"><img src="img/logo-oraculum.png" width="200" height="48" alt="Oraculum Framework" /></a></li>
+      </ul>
 
       <h3>Credits</h3>
       

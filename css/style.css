@@ -119,6 +119,9 @@ div#main p#intro{margin:24px 0 48px;}
 
 div#api-content h2 a{color: #f2f2f2!important;}
 
+ul#using-it li{list-style:none;float:left;margin:0 12px 0;border:none!important;}
+ul#using-it li a{border:none;}
+
 button span{font-family: "Georgia", serif;}
 
 /*
