@@ -75,7 +75,7 @@ $img->set_crop_coordinates(-400, -410)
         <li>PHP compiled with truetype support if you want to use special fonts on your image texts</li>
       </ul>
 
-      <h3>Examples</h3>
+      <h3>Examples (coming soon!)</h3>
 
       <ul id="examples" class="clearfix">
         <li><button value="">Simple resizes</button></li>
