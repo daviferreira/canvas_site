@@ -103,8 +103,8 @@ $img->set_crop_coordinates(-400, -410)
 
 <pre>
 error_reporting(E_ALL ^ E_NOTICE ^ E_USER_NOTICE);
-ini_set( 'display_errors',1 );
-ini_set( 'display_startup_errors', true );
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', true);
 </pre>
 
       <p>If you are still experiencing trouble, please drop a new issue at <a href="https://github.com/daviferreira/canvas2/issues">GitHub</a> and I'll take a look at it! You can also <a href="http://www.twitter.com/davitferreira">follow me on twitter</a> for updates and help.</p>
